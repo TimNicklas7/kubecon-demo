@@ -25,4 +25,4 @@ jobs:
       - name: Build and Push
         run: |
           TAG=main
-          acorn build --push -t ghcr.io/${{ github.repository }}:$TAG .
+          acorn build --push -t ghcr.io/timnicklas7/kubecon-demo:$TAG .
